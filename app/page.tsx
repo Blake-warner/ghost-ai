@@ -1,8 +1,5 @@
-import { Button } from "@/components/ui/button";
+import { EditorWorkspace } from "@/components/editor/editor-workspace"
 
 export default function Home() {
-  return <main className="min-h-screen">
-    <p>Hello</p>
-    <Button>Click Me</Button>
-  </main>;
+  return <EditorWorkspace />
 }
